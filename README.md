@@ -1,6 +1,6 @@
 <div align="center">
 
-# PHP Vulnerable Coders [![V](https://img.shields.io/badge/version-1-blue?style=flat-square)](https://github.com/ZechBron/PHP_VulnCdoe)
+# PHP Vulnerable Codes [![Version](https://img.shields.io/badge/v-1-blue?style=flat-square)](https://github.com/ZechBron/PHP_VulnCdoe)
 
 [![Coded By](https://img.shields.io/badge/Coded%20By-Zech%20Bron-red?style=for-the-badge&logo=github)](https://github.com/ZechBron)
 
