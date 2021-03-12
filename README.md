@@ -7,11 +7,11 @@
 If you copy, please put credits.
 </div>
 
-### Description:
+## Description:
 
 PHP Script Collections for Web Pentesters or Hackers.
 
-+ Vulnerable PHP Codes
+### Vulnerable PHP Codes
         Vulnerable PHP Code you can insert to the pages of the sites for your future attack. It makes the site vulnerable.
 
         [For More Info](https://github.com/ZechBron/Webug_PHP/wiki/PHP-Vulnerable-Codes)
@@ -19,7 +19,7 @@ PHP Script Collections for Web Pentesters or Hackers.
         [Raw](https://raw.githubusercontent.com/ZechBron/Webug_PHP/master/zVuln.php)
 
 
-+ Mini Console
+### Mini Console
         Just a mini console to execute a command. Upload this to the website you want to hack or you've already hacked.
 
         [For More Info](https://github.com/ZechBron/Webug_PHP/wiki/zmd---mini-cmd-shell-console)
