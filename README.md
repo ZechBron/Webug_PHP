@@ -25,5 +25,3 @@ PHP Script Collections for Web Pentesters or Hackers.
         [For More Info](https://github.com/ZechBron/Webug_PHP/wiki/Mini-Zhell-Console)
 
 
-
-
