@@ -7,25 +7,23 @@
 If you copy, please put credits.
 </div>
 
-## Description:
+### Description:
 
 PHP Script Collections for Web Pentesters or Hackers.
 
-### Vulnerable PHP Codes
++ Vulnerable PHP Codes
+        Vulnerable PHP Code you can insert to the pages of the sites for your future attack. It makes the site vulnerable.
 
-Vulnerable PHP Code you can insert to the pages of the sites for your future attack. It makes the site vulnerable.
+        [For More Info](https://github.com/ZechBron/Webug_PHP/wiki/PHP-Vulnerable-Codes)
 
-[For More Info](https://github.com/ZechBron/Webug_PHP/wiki/PHP-Vulnerable-Codes)
-
-[Raw](https://raw.githubusercontent.com/ZechBron/Webug_PHP/master/zVuln.php)
+        [Raw](https://raw.githubusercontent.com/ZechBron/Webug_PHP/master/zVuln.php)
 
 
-### Mini Console
++ Mini Zhell Console
+        Just a Mini console that Execute Commands with Shell Uploader`latest`. Upload this to the website you want to hack or you've already hacked.
 
-Just a mini console to execute a command. Upload this to the website you want to hack or you've already hacked.
+        [For More Info](https://github.com/ZechBron/Webug_PHP/wiki/Mini-Zhell-Console)
 
-[For More Info](https://github.com/ZechBron/Webug_PHP/wiki/zmd---mini-cmd-shell-console)
 
-[Raw](https://raw.githubusercontent.com/ZechBron/Webug_PHP/master/zmd.php)
 
 
