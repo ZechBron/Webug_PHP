@@ -27,4 +27,13 @@ Just a Mini console that Execute Commands with Shell Uploader`latest`. Upload th
 
 [For More Info](https://github.com/ZechBron/Webug_PHP/wiki/Mini-Zhell-Console)
 
+---
+
+### Very Simple Hidden Web Shell Backdoor
+
+Just like the style of index of / 
+To start just use this:
+https://examle.com/zindex.php?action=start
+
+[For More Info](https://github.com/ZechBron/Webug_PHP/wiki/)
 
